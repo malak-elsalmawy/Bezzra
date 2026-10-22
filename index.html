@@ -162,12 +162,14 @@
   </section>
   <div class="shell" id="siteApp" hidden>
     <aside class="sidebar">
-      <div class="brand"><div class="brandmark" aria-label="خوذة مهندس"><svg viewBox="0 0 48 48" role="img" aria-label="خوذة مهندس"><path d="M8 29a16 16 0 0 1 32 0H8Z" fill="#f3cb66"/><path d="M19 14v16M29 14v16" stroke="#9b7127" stroke-width="3" stroke-linecap="round"/><path d="M6 29h36v5a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4v-5Z" fill="#d9ad48"/><path d="M10 31h28" stroke="#fff0bc" stroke-width="2" stroke-linecap="round"/></svg></div><div><strong>زرعتي</strong><small>متابعة هندسية للمحاصيل</small></div></div>
-      <div><div class="nav-label">إدارة المزرعة</div><nav class="nav"><button class="active" id="navOverview" aria-current="page"><span class="ico">⌂</span>نظرة عامة</button><button id="navFields"><span class="ico">▦</span>حقولي</button><button id="navAlerts"><span class="ico">♧</span>التنبيهات</button><button id="navWeather"><span class="ico">☼</span>الطقس</button></nav></div>
+<div class="brandmark">
+  <link rel="icon" href="logo" type="image/png">
+  <img src="logo" alt="BEZRRA|بذرة" style="width:100%;height:100%;object-fit:contain;border-radius:10px;">
+</div>      <div><div class="nav-label">إدارة المزرعة</div><nav class="nav"><button class="active" id="navOverview" aria-current="page"><span class="ico">⌂</span>نظرة عامة</button><button id="navFields"><span class="ico">▦</span>حقولي</button><button id="navAlerts"><span class="ico">♧</span>التنبيهات</button><button id="navWeather"><span class="ico">☼</span>الطقس</button></nav></div>
       <div class="side-bottom"><b>مؤشرات الطقس الزراعي</b>التوقعات حسب موقع الحقل<br>تابع حالة النبات على أرض الواقع</div>
     </aside>
     <main class="main">
-      <div class="topbar"><div class="crumb">زرعتي　/　<b id="breadcrumbTitle">نظرة عامة</b></div><div class="top-actions"><span class="date-pill" id="todayLabel"></span><button class="theme-toggle" type="button" id="themeToggle" aria-label="التبديل إلى الوضع الغامق" aria-pressed="false"><span id="themeIcon" aria-hidden="true">🌙</span><span id="themeLabel">الوضع الغامق</span></button><span class="source-pill">● متصل بالطقس</span><span class="account-chip" id="accountChip"></span><button class="sign-out" type="button" id="signOutBtn">خروج</button><div class="avatar" id="accountAvatar">ز</div></div></div>
+      <div class="topbar"><div class="crumb">بذرة　/　<b id="breadcrumbTitle">نظرة عامة</b></div><div class="top-actions"><span class="date-pill" id="todayLabel"></span><button class="theme-toggle" type="button" id="themeToggle" aria-label="التبديل إلى الوضع الغامق" aria-pressed="false"><span id="themeIcon" aria-hidden="true">🌙</span><span id="themeLabel">الوضع الغامق</span></button><span class="source-pill">● متصل بالطقس</span><span class="account-chip" id="accountChip"></span><button class="sign-out" type="button" id="signOutBtn">خروج</button><div class="avatar" id="accountAvatar">ز</div></div></div>
       <header class="heading"><div><span class="eyebrow" id="pageEyebrow">لوحة متابعة المهندس الزراعي</span><h1 id="pageTitle">نظرة عامة</h1><p id="pageDescription">ملخص سريع لحقولك والطقس والتنبيهات.</p></div><button class="primary" id="addFieldBtn" type="button" hidden>＋　إضافة حقل</button></header>
       <section class="page-view" id="overviewPage">
         <section class="cards" aria-label="ملخص المزرعة">
